@@ -19,17 +19,19 @@ Business Stuff
 **A project for making an Automator action that creates lazy-loading getters from @property declarations**
 
 Given this input:
-     @property (nonatomic, strong) NSMutableArray *array;
+
+@property (nonatomic, strong) NSMutableArray *array;
      
 Get this output:
-    - (NSMutableArray *)array
-    {
-        if (_array == nil)
-        {
-            _array = [[NSMutableArray alloc] init];
-        }
-        return _array;
-    }
+
+- (NSMutableArray *)array
+{
+ if (_array == nil)
+ {
+  _array = [[NSMutableArray alloc] init];
+ }
+ return _array;
+}
     
 - The project builds an Automator action.
 - Also included is a testing app, with a few unit tests, since testing Automator actions in Automator is really annoying.
@@ -95,11 +97,6 @@ If you find this code useful, then any of the following would really make me hap
 - I do contract development: [BriTer Ideas LLC](http://www.briterideas.com/services.shtml). Hire me. Or if you know of anyone else looking for a developer, I'd appreciate a referral.
 - A shout out on Twitter never hurt anybody.
 - I will graciously accept a [PayPal](http://bit.ly/AW4Cc) donation.
-
-
-## Sample code
-
-The BTIConcepts project includes a simple iPhone demonstration app.  What it does isn't as interesting as how it does it, so be sure to review the sample classes.
 
 
 ## Bugs and feature requests
