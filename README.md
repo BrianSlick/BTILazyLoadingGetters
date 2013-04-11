@@ -22,7 +22,7 @@ Given this input:
 
      @property (nonatomic, strong) NSMutableArray *array;
      
-Get this output:
+Get this output (Sorry about the (-) at the beginning, the normal - messed with formatting here in the README):
 
      (-) (NSMutableArray *)array
      {
@@ -87,7 +87,7 @@ BTIConcepts can be cloned from its git repository on github. You can find the re
 
 ## License
 
-BTILazyLoadingGetters is distributed under an **attribution license**. You're free to use the code, with attribution, in any kind of project you like (including commercial and/or closed-source apps).
+BTILazyLoadingGetters is distributed freely.  Use it or modify it in any way you see fit.
 
 
 ## Saying Thank You
