@@ -20,18 +20,18 @@ Business Stuff
 
 Given this input:
 
-@property (nonatomic, strong) NSMutableArray *array;
+```@property (nonatomic, strong) NSMutableArray *array;```
      
 Get this output:
 
-- (NSMutableArray *)array
+```- (NSMutableArray *)array
 {
- if (_array == nil)
- {
-  _array = [[NSMutableArray alloc] init];
- }
- return _array;
-}
+   if (_array == nil)
+   {
+      _array = [[NSMutableArray alloc] init];
+   }
+   return _array;
+}```
     
 - The project builds an Automator action.
 - Also included is a testing app, with a few unit tests, since testing Automator actions in Automator is really annoying.
