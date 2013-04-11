@@ -20,11 +20,11 @@ Business Stuff
 
 Given this input:
 
-```@property (nonatomic, strong) NSMutableArray *array;```
+     @property (nonatomic, strong) NSMutableArray *array;
      
 Get this output:
 
-     - (NSMutableArray *)array
+     (-) (NSMutableArray *)array
      {
           if (_array == nil)
           {
