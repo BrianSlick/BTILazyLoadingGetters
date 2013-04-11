@@ -1,0 +1,3 @@
+@property (nonatomic, weak) id<UITableViewDelegate> *delegate;
+@property (nonatomic, weak) id <UITableViewDelegate> *anotherDelegate;
+@property (nonatomic, strong) NSMutableArray<UnlikelyToHaveAProtocolHere> *mainContents;

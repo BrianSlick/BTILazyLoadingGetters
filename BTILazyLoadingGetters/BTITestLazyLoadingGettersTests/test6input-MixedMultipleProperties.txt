@@ -1,0 +1,5 @@
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) NSFetchedResultsController *mainFetchedResultsController;
+@property (nonatomic, strong, readonly) BTITableContentsManager *searchContentsManager;  // Just a test
+@property (nonatomic, assign, getter = isSearchResultsViaFetch) BOOL searchResultsViaFetch;		// Another Test
+@property (nonatomic, strong, readonly) NSMutableArray *mainContents;

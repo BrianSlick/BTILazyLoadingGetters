@@ -1,0 +1,9 @@
+- (NSMutableArray *)mainContents
+{
+	if (_mainContents == nil)
+	{
+#warning Instance variables for readonly properties must be explicitly defined
+		_mainContents = [[NSMutableArray alloc] init];
+	}
+	return _mainContents;
+}

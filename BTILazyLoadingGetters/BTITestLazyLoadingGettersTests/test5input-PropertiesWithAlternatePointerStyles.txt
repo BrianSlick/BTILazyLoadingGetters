@@ -1,0 +1,4 @@
+@property (nonatomic, strong) NSMutableArray * mainContents;
+@property (nonatomic, strong) NSMutableArray* altContents;
+@property (nonatomic, strong) NSMutableArray*			moreContents;
+@property (nonatomic, strong) NSMutableArray			*			evenMoreContents;
