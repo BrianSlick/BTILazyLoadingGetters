@@ -1,8 +1,8 @@
 - (NSMutableArray *)mainContents
 {
-	if (_mainContents == nil)
-	{
-		_mainContents = [[NSMutableArray alloc] init];
-	}
-	return _mainContents;
+    if (_mainContents == nil)
+    {
+        _mainContents = [[NSMutableArray alloc] init];
+    }
+    return _mainContents;
 }

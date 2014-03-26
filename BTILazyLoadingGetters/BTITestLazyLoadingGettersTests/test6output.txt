@@ -1,37 +1,37 @@
 - (NSManagedObjectContext *)managedObjectContext
 {
-	if (_managedObjectContext == nil)
-	{
-		_managedObjectContext = [[NSManagedObjectContext alloc] init];
-	}
-	return _managedObjectContext;
+    if (_managedObjectContext == nil)
+    {
+        _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    }
+    return _managedObjectContext;
 }
 
 - (NSFetchedResultsController *)mainFetchedResultsController
 {
-	if (_mainFetchedResultsController == nil)
-	{
-		_mainFetchedResultsController = [[NSFetchedResultsController alloc] init];
-	}
-	return _mainFetchedResultsController;
+    if (_mainFetchedResultsController == nil)
+    {
+        _mainFetchedResultsController = [[NSFetchedResultsController alloc] init];
+    }
+    return _mainFetchedResultsController;
 }
 
 - (BTITableContentsManager *)searchContentsManager
 {
-	if (_searchContentsManager == nil)
-	{
+    if (_searchContentsManager == nil)
+    {
 #warning Instance variables for readonly properties must be explicitly defined
-		_searchContentsManager = [[BTITableContentsManager alloc] init];
-	}
-	return _searchContentsManager;
+        _searchContentsManager = [[BTITableContentsManager alloc] init];
+    }
+    return _searchContentsManager;
 }
 
 - (NSMutableArray *)mainContents
 {
-	if (_mainContents == nil)
-	{
+    if (_mainContents == nil)
+    {
 #warning Instance variables for readonly properties must be explicitly defined
-		_mainContents = [[NSMutableArray alloc] init];
-	}
-	return _mainContents;
+        _mainContents = [[NSMutableArray alloc] init];
+    }
+    return _mainContents;
 }

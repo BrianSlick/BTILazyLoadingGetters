@@ -125,15 +125,15 @@
 		
 		[newLines addObject:[NSString stringWithFormat:@"- (%@ *)%@", nameOfClass, variableName]];
 		[newLines addObject:@"{"];
-		[newLines addObject:[NSString stringWithFormat:@"\tif (_%@ == nil)", variableName]];
-		[newLines addObject:@"\t{"];
+		[newLines addObject:[NSString stringWithFormat:@"    if (_%@ == nil)", variableName]];
+		[newLines addObject:@"    {"];
 		if (isReadonly)
 		{
 			[newLines addObject:@"#warning Instance variables for readonly properties must be explicitly defined"];
 		}
-		[newLines addObject:[NSString stringWithFormat:@"\t\t_%@ = [[%@ alloc] init];", variableName, nameOfClass]];
-		[newLines addObject:@"\t}"];
-		[newLines addObject:[NSString stringWithFormat:@"\treturn _%@;", variableName]];
+		[newLines addObject:[NSString stringWithFormat:@"        _%@ = [[%@ alloc] init];", variableName, nameOfClass]];
+		[newLines addObject:@"    }"];
+		[newLines addObject:[NSString stringWithFormat:@"    return _%@;", variableName]];
 		[newLines addObject:@"}"];
 		[newLines addObject:@""];
 		

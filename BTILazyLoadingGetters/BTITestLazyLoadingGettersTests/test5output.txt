@@ -1,35 +1,35 @@
 - (NSMutableArray *)mainContents
 {
-	if (_mainContents == nil)
-	{
-		_mainContents = [[NSMutableArray alloc] init];
-	}
-	return _mainContents;
+    if (_mainContents == nil)
+    {
+        _mainContents = [[NSMutableArray alloc] init];
+    }
+    return _mainContents;
 }
 
 - (NSMutableArray *)altContents
 {
-	if (_altContents == nil)
-	{
-		_altContents = [[NSMutableArray alloc] init];
-	}
-	return _altContents;
+    if (_altContents == nil)
+    {
+        _altContents = [[NSMutableArray alloc] init];
+    }
+    return _altContents;
 }
 
 - (NSMutableArray *)moreContents
 {
-	if (_moreContents == nil)
-	{
-		_moreContents = [[NSMutableArray alloc] init];
-	}
-	return _moreContents;
+    if (_moreContents == nil)
+    {
+        _moreContents = [[NSMutableArray alloc] init];
+    }
+    return _moreContents;
 }
 
 - (NSMutableArray *)evenMoreContents
 {
-	if (_evenMoreContents == nil)
-	{
-		_evenMoreContents = [[NSMutableArray alloc] init];
-	}
-	return _evenMoreContents;
+    if (_evenMoreContents == nil)
+    {
+        _evenMoreContents = [[NSMutableArray alloc] init];
+    }
+    return _evenMoreContents;
 }
