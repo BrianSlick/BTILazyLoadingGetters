@@ -1,5 +1,4 @@
 # BTILazyLoadingGetters
-* * *
 by **Brian Slick**
 
 Personal: [@BrianSlick](http://twitter.com/BrianSlick) | [Clinging To Ideas](http://clingingtoideas.blogspot.com) (blog)
