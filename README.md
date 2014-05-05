@@ -5,7 +5,7 @@ Personal: [@BrianSlick](http://twitter.com/BrianSlick) | [Clinging To Ideas](htt
 Business: [@BriTerIdeas](http://twitter.com/BriTerIdeas) | [briterideas.com](http://briterideas.com)
 
 
-## What is BTILazyLoadingGetters?
+### What is BTILazyLoadingGetters?
 
 **A project for making an Automator action that creates lazy-loading getters from @property declarations**
 
@@ -32,7 +32,7 @@ The project builds an Automator action.
 Also included is a testing app, with a few unit tests, since testing Automator actions in Automator is really annoying.
 
 
-## Usage
+### Usage
 
 1. Highlight a list of @properties
 2. Select the appropriate service from the Xcode -> Services menu
@@ -41,7 +41,7 @@ Also included is a testing app, with a few unit tests, since testing Automator a
 5. There is no step 5.
 
 
-## Installation
+### Installation
 
 - Acquire this project by the usual means
 - Build the Action.  If a Mac app launches, you built the wrong thing
@@ -58,7 +58,7 @@ This action will be available in the Services menu any time you have a text sele
 Misc tip: During development I frequently found that Automator and/or the Services menu would cache previous states of the action.  Quitting Automator and sometimes Xcode, and sometimes creating an entirely new workflow, would help to see the newest code. FYI in case you modify the code and want to try it out.
 
 
-## Discussion of output
+### Discussion of output
 
 The instance variable convention assumes that you are auto-synthesizing your properties, and not otherwise explicitly declaring instance variables. Thus, it follows Apple's convention. I'm not personally a fan of underscored names, but if Apple is going to standardize, I guess I'm willing to play ball. The code can easily be tailored to other styles.
 
@@ -67,28 +67,28 @@ No getters will be generated for primitive types (BOOL, int, etc), or for id. I 
 Since auto-synthesized readonly properties do not create instance variables, the output will helpfully include a compiler #warning reminding you of this fact.
 
 
-## Why did you create this?
+### Why did you create this?
 
 I will make getters like these pretty routinely for mutable NS(Mutable)Array, NS(Mutable)Dictionary, and NS(Mutable)Set properties.  Just got tired of typing it all over and over again.
 
 
-## Getting the code
+### Getting the code
 
 BTILazyLoadingGetters can be cloned from its git repository on GitHub. You can find the repository here: [http://github.com/BriTerIdeas/BTILazyLoadingGetters](http://github.com/BriTerIdeas/BTILazyLoadingGetters)
 
 
-## Requirements and supported OS versions
+### Requirements and supported OS versions
 
 - Tested on Mavericks.  Not sure how far back it will work.  Previous version worked fine on Mountain Lion.
 - Current build target is Mavericks, which uses ARC.  If building for anything older, you have to use garbage collection.
 
 
-## License
+### License
 
 BTILazyLoadingGetters is distributed freely.  Use it or modify it in any way you see fit.
 
 
-## Saying Thank You
+### Saying Thank You
 
 If you find this code useful, then any of the following would really make me happy:
 
@@ -98,7 +98,7 @@ If you find this code useful, then any of the following would really make me hap
 - I will graciously accept a [PayPal](http://bit.ly/AW4Cc) donation.
 
 
-## Bugs and feature requests
+### Bugs and feature requests
 
 There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider feature requests.  (Note, "consider" doesn't mean I will do anything).
 
