@@ -48,7 +48,7 @@ Also included is a testing app, with a few unit tests, since testing Automator a
 - Reveal the product in the Finder
 - The .action file needs to be placed in ~/Library/Automator
 - Launch Automator, and create a new Workflow using the Service template
-- The settings at the top should be "text", "any application" (or limit to Xcode if you prefer), and the "Output replaces selected text" checkbox should be OFF
+- The settings at the top should be "text", "any application" (or limit to Xcode if you prefer), and the "Output replaces selected text" checkbox should be **OFF**
 - Locate the custom action in the list. It might be in the "Recently Added" smart group.  Drag it into the workflow
 - Locate the "Copy To Clipboard" action, and drag it to the workflow after the custom one
 - Save. Give it a name you'll recognize, such as "Copy Getters To Clipboard"
@@ -79,7 +79,7 @@ BTILazyLoadingGetters can be cloned from its git repository on GitHub. You can f
 
 ### Requirements and supported OS versions
 
-- Tested on Mavericks.  Not sure how far back it will work.  Previous version worked fine on Mountain Lion.
+- Tested on Mavericks.  Not sure how far back it will work.
 - Current build target is Mavericks, which uses ARC.  If building for anything older, you have to use garbage collection.
 
 
